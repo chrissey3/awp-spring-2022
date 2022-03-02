@@ -1,0 +1,28 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "title": "Wolf of wallstreet",
+        "description": "Great movie about money and drugs.",
+        "director": "Martin Scorsese",
+        "rating": "8.2",
+        "cover_url": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Fight club",
+        "description": "A schizoprenic man fights himself.",
+        "director": "David Fincher",
+        "rating": "8.8",
+        "cover_url": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "id": "3",
+        "title": "The dark knight",
+        "description": "Nananananana batman!.",
+        "director": "Christopher Nolan",
+        "rating": "9.1",
+        "cover_url": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg"
+      }
+    ]
+  }
