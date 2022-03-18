@@ -25,7 +25,7 @@ describe("Create a database full of books", () => {
   });
 
   // TESTS START HERE
-  it("contains Fight Club", async () => {
+  it.only("contains Fight Club", async () => {
     const fightClubBook = await coll.findOne({ title: "Fight Club" });
     expect(fightClubBook).toMatchObject({
       title: "Fight Club",
