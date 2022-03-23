@@ -1,12 +1,9 @@
 import { Link, Outlet, LiveReload, Links, Meta, Scripts } from "remix";
-import globalStylesUrl from "~/styles/global.css";
+import styles from "./tailwind.css";
 
-export const links = () => [
-  {
-    rel: "stylesheet",
-    href: globalStylesUrl,
-  },
-];
+export function links() {
+  return [{ rel: "stylesheet", href: styles }];
+}
 
 export const meta = () => ({
   description: "An example recipe sitw",
@@ -33,7 +30,7 @@ function Document({ children, title }) {
         <Links />
         <title>{title}</title>
       </head>
-      <body>
+      <body className="bg-gray-800 text-white">
         {children}
         {process.env.NODE_ENV === "development" ? <LiveReload /> : null}
         <Scripts />
@@ -45,7 +42,7 @@ function Document({ children, title }) {
 function Layout({ children }) {
   return (
     <>
-      <nav className="navbar">
+      <nav className='flex justify-between pt-6 pb-6 pl-4 pr-4 bg-gray-800' >
         <Link to="/" className="logo">
           Remix Recipes
         </Link>

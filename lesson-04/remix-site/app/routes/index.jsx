@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome</h1>
-      <p>This site is full of great recipes. Enjoy!</p>
+    <div className="flex justify-center text-lg">
+      <h1 className="text-6xl">Welcome to this site which im trying to get to work</h1>
+      
     </div>
   );
 }
